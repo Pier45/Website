@@ -22,7 +22,7 @@ p{
 }
 
 .first {  
-    padding: 150px 100px 80px 100px;
+    padding: 150px 40px 80px 40px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -92,18 +92,15 @@ p{
     height: auto;
 }
 
-.fourth, .fifth, .sixty{
+.fourth, .fifth, .sixty, .seventh{
     margin: 0px 40px 0px 40px;
     display: flex;
     flex-wrap: wrap;
 }
 
 .seventh{
-    display: flex;
-    flex-wrap: wrap;
     align-content: center;
     justify-content: space-around;
-    padding: 100px;
 }
 
 .seventh img{

@@ -41,6 +41,10 @@ a{
     letter-spacing: 0.01em;
 }
 
+.header ul a:checked ~ .header{
+    background-color: indianred;
+}
+
 .logo{
     float: left;
     font-size: 40px;

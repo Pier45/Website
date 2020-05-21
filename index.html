@@ -8,6 +8,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="menu.css">
         <link rel="stylesheet" href="main.css">
+        <script src="js/jsfunction.js" defer></script>
         <link href="https://fonts.googleapis.com/css2?family=Arizonia&display=swap" rel="stylesheet">
     </head>
     <body>
@@ -15,14 +16,14 @@
             <a href="#" class="logo">Baccanalia</a>
             <input class="menu-btn" type="checkbox" id="menu-btn" />
             <label class="menu-label" for="menu-btn"><span class="nav-icon"></span></label>
-            <ul class="menu">
-                <li><a href="#ft">Home</a></li>
-                <li><a href="#td">Storia</a></li>
-                <li><a href="#fh">Tour</a></li>
-                <li><a href="#forget">Parking-camping</a></li>
-                <li><a href="#forget">Photo gallery</a></li>
-                <li><a href="#forget">Sponsor</a></li>
-                <li><a href="#forget">Contatti</a></li>
+            <ul class="menu" id="menu">
+                <li><a class="a-menu" href="#ft" onclick="closeMenu()">Home</a></li>
+                <li><a class="a-menu" href="#td" onclick="closeMenu()">Storia</a></li>
+                <li><a class="a-menu" href="#fh" onclick="closeMenu()">Tour</a></li>
+                <li><a class="a-menu" href="#forget" onclick="closeMenu()">Parking-camping</a></li>
+                <li><a class="a-menu" href="#forget" onclick="closeMenu()">Photo gallery</a></li>
+                <li><a class="a-menu" href="#forget" onclick="closeMenu()">Sponsor</a></li>
+                <li><a class="a-menu" href="#forget" onclick="closeMenu()">Contatti</a></li>
             </ul>
 
         </header>
@@ -59,6 +60,7 @@
                     <div class="second-tree">
                         <h1>Musica</h1>
                         <img src="./img/organetto.png" alt="" style="width: 60%; height: auto; margin-top: 20%;">
+                        <p>Musica tradizionale e contemporante suonata dal vivo</p>
                     </div>
                     <div class="second-four">
                         <h1>Accoglienza</h1>
@@ -77,7 +79,7 @@
                     </div>
                     <div class="text-home">
                         <p>
-                            Via Bacco è un'antica via sita nel comune di San Gregorio Magno in cui sono presenti circa 600 cantine ottenute mediante 
+                            Via Bacco è un'antica via sita nel comune di San Gregorio Magno in cui sono presenti circa <b>600 cantine</b> ottenute mediante 
                             scavi effettuati all'interno della roccia. Le cantine si trovano in prossimità di Via San Zaccaria rinominata in gregoriano 
                             La ctatella che, in italiano, allude alla parola La cittadella ad indicare il fatto che il paese è nato in quella zona, 
                             definendola ad oggi la zona più vecchia di San Gregorio Magno.
@@ -122,7 +124,15 @@
                             Photo
                         </h3>
                         <div class="line"></div>
-                    </div>                </div>
+                    </div>                
+                </div>
+                <div class="title">
+                    <div class="line"></div>
+                    <h3>
+                        Sponsor
+                    </h3>
+                    <div class="line"></div>
+                </div>
                 <div class="seventh">
                     <img src="img/sponsor1.png" alt="">
                     <img src="img/sponsor2.png" alt="">
