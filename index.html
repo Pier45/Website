@@ -19,17 +19,17 @@
             <ul class="menu" id="menu">
                 <li><a class="a-menu" href="#ft" onclick="closeMenu()">Home</a></li>
                 <li><a class="a-menu" href="#td" onclick="closeMenu()">Storia</a></li>
-                <li><a class="a-menu" href="#fh" onclick="closeMenu()">Tour</a></li>
-                <li><a class="a-menu" href="#forget" onclick="closeMenu()">Parking-camping</a></li>
-                <li><a class="a-menu" href="#forget" onclick="closeMenu()">Photo gallery</a></li>
-                <li><a class="a-menu" href="#forget" onclick="closeMenu()">Sponsor</a></li>
+                <li><a class="a-menu" href="#four" onclick="closeMenu()">Tour</a></li>
+                <li><a class="a-menu" href="#fh" onclick="closeMenu()">Parking-camping</a></li>
+                <li><a class="a-menu" href="#sx" onclick="closeMenu()">Photo gallery</a></li>
+                <li><a class="a-menu" href="#sh" onclick="closeMenu()">Sponsor</a></li>
                 <li><a class="a-menu" href="#forget" onclick="closeMenu()">Contatti</a></li>
             </ul>
 
         </header>
         <main class="container">
-            <div>
-                <div class="first" id="ft">
+            <div id="ft">
+                <div class="first">
                     <div class="text-home">
                         <h3>
                             San Gregorio Magno
@@ -90,7 +90,7 @@
                         <p>
                     </div>
                 </div>
-                <div class="title" id="fh">
+                <div class="title" id="four">
                     <div class="line"></div>
                     <h3>
                         Tour
@@ -108,7 +108,7 @@
                     </div>
                     <img src="img/tour.jpg" alt="" style="height: auto;max-width: 200px; padding: 40px;">
                 </div>
-                <div class="fifth">
+                <div class="fifth" id="fh">
                     <div class="title">
                         <div class="line"></div>
                         <h3>
@@ -117,7 +117,7 @@
                         <div class="line"></div>
                     </div>
                 </div>
-                <div class="sixty">
+                <div class="sixty" id="sx">
                     <div class="title">
                         <div class="line"></div>
                         <h3>
@@ -126,7 +126,7 @@
                         <div class="line"></div>
                     </div>                
                 </div>
-                <div class="title">
+                <div class="title" class="sh">
                     <div class="line"></div>
                     <h3>
                         Sponsor
@@ -134,15 +134,38 @@
                     <div class="line"></div>
                 </div>
                 <div class="seventh">
-                    <img src="img/sponsor1.png" alt="">
-                    <img src="img/sponsor2.png" alt="">
+                    <img src="img/sponsor1.png" alt="sponsor1">
+                    <img src="img/sponsor2.png" alt="sponsor2">
+                    <img src="img/sponsor3.png" alt="sponsor3">
+                </div>
+                <div class="newsponsor">
+                    <h1>Vuoi diventare un nostro sponsor?</h1>
+                    <p>Scopri quali sono i vantaggi di sponzorizzare il nostro evento, puoi contattarci inserendo la tua
+                         <b>email</b> nell'apposito box sottostante oppure attraverso i canali <b>Instagram</b> e <b>Facebook</b>.
+                    
+                    </p>
+                    <form action="/action_page.php">
+                        <label for="Email">Indirizzo email:</label>
+                        <input type="email" id="Email" name="Email">
+                        <input type="submit" id="Submit" value="Invia">
+                    </form>
                 </div>
             </div>
         </main>
         <footer>
-            <div class="foot">
-                <img src="img/face.png" alt="" style="color: red;">
-                <img src="img/insta.png" alt="">
+            <div class="foot-left">
+                <h1>Con cose qua da scrivere ancora nons o</h1>
+                <div>
+                    <img src="img/logo_regione_rev.png" alt="">
+                </div>
+            </div>
+            <div class="foot-right">
+                <h1>Seguici attraverso i nostri profili:</h1>
+                <div>
+                    <img src="img/face.png" alt="" style="color: red;">
+                    <img src="img/insta.png" alt="">
+                </div>
+
             </div>
         </footer>
     </body>
