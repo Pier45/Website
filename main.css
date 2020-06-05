@@ -101,11 +101,12 @@ p, span, label{
 .seventh{
     align-content: center;
     justify-content: space-around;
-    border: 2px solid red;
 }
 
 .seventh img{
+    margin: auto;
     width: 20%; 
+    min-width: 100px;
     height: auto;
 }
 
