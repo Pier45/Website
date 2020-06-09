@@ -92,8 +92,14 @@ p, span, label{
     height: auto;
 }
 
-.fourth, .fifth, .sixty, .seventh{
+.fourth, .sixty, .seventh{
     margin: 0px 40px 0px 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fifth .sottostante{
+    border: 1px solid red;
     display: flex;
     flex-wrap: wrap;
 }
