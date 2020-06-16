@@ -44,7 +44,7 @@ p, span, label{
     flex-wrap: wrap;
 }
 
-.second-one, .second-two, .second-tree, .second-four{
+.second-one{
     margin: 40px 10px;
     height: 400px;
     width: 300px;
@@ -61,7 +61,6 @@ p, span, label{
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 18px;
-    font-weight: lighter;
     position: absolute;
     bottom: 30px;
     margin: 0px 40px;
@@ -98,10 +97,34 @@ p, span, label{
     flex-wrap: wrap;
 }
 
-.fifth .sottostante{
-    border: 1px solid red;
+.fifth {
     display: flex;
     flex-wrap: wrap;
+    background: linear-gradient(90deg, rgba(0,65,113,1) 0%, rgba(2,85,156,1) 19%, rgba(2,125,175,1) 66%, rgba(4,195,193,1) 100%);
+    justify-content: space-around;
+}
+
+.fifth-one{
+    margin: 40px 10px;
+    height: 400px;
+    width: 40%;
+    min-width: 300px;
+    max-width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 2.5vh;
+    font-family: 'Arizonia';
+    box-shadow: 1px 1px 5px 5px rgba(0,0,0,.2);
+    border-radius: 15px;
+    position: relative;
+}
+
+.fifth-one p{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    bottom: 50px;
+    margin: 0px 40px;
 }
 
 .seventh{
