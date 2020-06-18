@@ -15,7 +15,6 @@ p, span, label{
     align-items: center;
     justify-content: space-around;
     margin: 0px 40px 0px 40px;
-    border: .5px solid red;
 }
 
 .second, .fifth {
@@ -110,6 +109,27 @@ p, span, label{
     position: absolute;
     bottom: 50px;
     margin: 0px 40px;
+}
+
+.carosel-container{
+    width: 80%;
+    overflow: hidden;
+}
+
+.slide{
+    display: flex;
+    width: 100%;
+    transition: 0.35s ease-in-out;
+}
+
+.butPhotos{
+    display: flex;
+    justify-content: space-between;
+}
+
+#nextB, #prevB{
+    opacity: 0.5;
+    cursor: pointer;
 }
 
 .seventh img{
