@@ -31,8 +31,13 @@ p, span, label{
     background: linear-gradient(90deg, rgba(186,3,107,1) 0%, rgba(230,20,59,1) 61%, rgba(240,27,27,1) 100%);
 }
 
+.fourth{
+    padding-bottom: 100px;
+}
+
 .fifth{
     background: linear-gradient(90deg, rgba(0,65,113,1) 0%, rgba(2,85,156,1) 19%, rgba(2,125,175,1) 66%, rgba(4,195,193,1) 100%);
+    padding: 50px 0px 50px 0px;
 }
 
 .text-home{
@@ -75,7 +80,7 @@ p, span, label{
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 40px 0px 40px 0px;
+    padding: 100px 0px 50px 0px;
 }
 
 .title .line{
@@ -91,7 +96,7 @@ p, span, label{
 
 .fifth-one{
     margin: 40px 10px;
-    height: 400px;
+    /* height: 400px; */
     width: 40%;
     min-width: 300px;
     color: white;
@@ -106,9 +111,7 @@ p, span, label{
 .fifth-one p{
     color: white;
     font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
-    position: absolute;
-    bottom: 50px;
-    margin: 0px 40px;
+    margin: 25px;
 }
 
 .carosel-container{
