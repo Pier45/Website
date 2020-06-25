@@ -21,6 +21,7 @@ a{
     position: fixed;
     width: 100%;
     z-index: 5;
+    opacity: 0.9;
 }
 
 .header ul{
