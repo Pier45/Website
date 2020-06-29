@@ -6,11 +6,13 @@
 		<meta name="description" content="This">
 		<meta name="author" content="Sada45">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="menu.css">
-        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="css/menu.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/lightbox.min.css">
         <script src="js/jsfunction.js" defer></script>
+        <script src="js/lightbox-plus-jquery.min.js" defer></script>
         <link href="https://fonts.googleapis.com/css2?family=Arizonia&display=swap" rel="stylesheet">
-        <link rel="icon" href="img/uva.ico">
+        <link rel="icon" href="images/uva.ico">
     </head>
     <body>
         <header class="header">
@@ -39,39 +41,43 @@
                             Notti di luna piena con profumo di vino, colori e musiche 
                             popolari nelle oltre 600 grotte di Via Bacco.
                         <p>
-                        <!-- <img src="img/sagraq.jpg" alt="" style="height: 70px; margin-top: 50px;"> -->
-                    </div>
-                        
+                    </div>                        
+                </div>
+
+                <div class="italy">
+                    <div class="verde"></div>
+                    <div class="bianco"></div>
+                    <div class="rosso"></div>
                 </div>
 
                 <div class="second">
                     <div class="second-one">
                         <h1>Vino</h1>
                         <div class="second-img">
-                            <img src="./img/vino.png" alt="">
+                            <img src="./images/vino.png" alt="">
                         </div>
-                        <p>Vino bianco e rosso prodotto in maniera artigianale</p>
+                        <p>Vino bianco e rosso prodotto artigianalmente da vigneti locali</p>
                     </div>
                     <div class="second-one">
                         <h1>Cibo</h1>
                         <div class="second-img">
-                            <img src="./img/cibo.png" alt="" >
+                            <img src="./images/cibo.png" alt="" >
                         </div>
-                        <p>Piatti tipici della cunica gregoriana prodotti con materia locale</p>
+                        <p>Piatti tipici della cucina gregoriana preparati con prodotti a km 0</p>
                     </div>
                     <div class="second-one">
                         <h1>Musica</h1>
                         <div class="second-img">
-                            <img src="./img/organetto.png" alt="">
+                            <img src="./images/organetto.png" alt="">
                         </div>
-                        <p>Musica tradizionale e contemporante suonata dal vivo</p>
+                        <p>Musica tradizionale e contemporanea suonata da gruppi itineranti</p>
                     </div>
                     <div class="second-one">
                         <h1>Ospitalità</h1>
                         <div class="second-img">
-                            <img src="./img/accoglienza.png" alt="" style="filter: drop-shadow(10px 10px 15px #FFFFFF);">
+                            <img src="./images/accoglienza.png" alt="" style="filter: drop-shadow(10px 10px 15px #FFFFFF);">
                         </div>
-                        <p>Ti accoglieremo come solo il popolo gregoriano sa fare</p>
+                        <p>Verrai accolto con l’affetto che solo il popolo gregoriano sa fare </p>
                     </div>
                 </div>
 
@@ -86,7 +92,7 @@
                     </div>
 
                     <div class="im-third">
-                        <img src="img/grotta.jpg" alt="" style="width: 100%;">
+                        <img src="images/grotta.jpg" alt="" style="width: 100%;">
                     </div>
                     <div class="text-home">
                         <p>
@@ -120,19 +126,19 @@
                             definendola ad oggi la zona più vecchia di San Gregorio Magno.
                         <p>
                     </div>
-                    <img src="img/tour.jpg" alt="" style="height: auto;max-width: 200px;">
+                    <img src="images/tour.jpg" alt="" style="height: auto;max-width: 200px;">
                 </div>
 
                 <div class="fifth" id="fh">
                     <div class="fifth-one">
                         <h1>Parking</h1>
-                        <img src="./img/percorso.png" alt="" style="width: 33%; height: auto; margin-top: 7%;">
+                        <img src="./images/percorso.png" alt="" style="width: 33%; height: auto; margin-top: 7%;">
                         <p>Quando arriverai verrai indirizzato a dei parcheggi illuminati e controllati fino alle ore 3, di lì prendendo
                             la navetta messa a disposizione dall'organizzazione al costo di 1€ si potrà raggiungere il centro della festa in pochi minuti.</p>
                     </div>
                     <div class="fifth-one">
                         <h1>Camping</h1>
-                        <img src="./img/tenda.png" alt="" style="width: 45%; height: auto; margin-top: 7%;">
+                        <img src="./images/tenda.png" alt="" style="width: 45%; height: auto; margin-top: 7%;">
                         <p>E' presente inoltre la possibilità di pernottare in tenda all'interno di spazi appositamente organizzati, sarà inoltre messo a disposizione una
                             struttura che vi permetterà di accedere a delle toilette dedicate e delle docce.</p>
                     </div>
@@ -147,21 +153,13 @@
                         <div class="line"></div>
                     </div>
 
-                    <div class="carosel-container">
-                        <div class="slide">
-                            <img src="./img/grotta.jpg" id="lastclone" alt="" style="width: 100%; margin:auto;">
-                            <img src="./img/baccanalia2.png" alt="" style="width: 100%; margin:auto;" >
-                            <img src="./img/3.jpg" alt=""   style="width: 100%; margin:auto;" >
-                            <img src="./img/4.jpg" alt="" style="width: 100%; margin:auto;" >
-                            <img src="./img/grotta.jpg" alt="" style="width: 100%; margin:auto;">
-                            <img src="./img/baccanalia2.png" id="firstclone" alt="" style="width: 100%; margin:auto;" >
-                        </div>
-                        <div class="butPhotos">
-                            <img id="prevB" src="./img/sinistra.png"/>
-                            <img id="nextB" src="./img/destra.png"/>
-                        </div>
+                    <div class="galleria">
+                        <a href="images/grotta.jpg" data-lightbox="mygallery" data-title=">Grotta"><img src="images/grotta-small.jpg" alt=""></a>
+                        <a href="images/baccanalia2.png" data-lightbox="mygallery"><img src="images/baccanalia2-small.png" alt=""></a>
+                        <a href="images/baccanalia3.png" data-lightbox="mygallery"><img src="images/baccanalia3-small.png" alt=""></a>
+                        <a href="images/baccanalia4.jpg" data-lightbox="mygallery"><img src="images/baccanalia4-small.jpg" alt=""></a>
+                        <a href="images/baccanalia5.png" data-lightbox="mygallery"><img src="images/baccanalia5-small.png" alt=""></a>
                     </div>
-                    
                 </div>
 
                 <div class="seventh" id="sh">
@@ -173,9 +171,9 @@
                         <div class="line"></div>
                     </div>
 
-                    <img src="img/sponsor1.png" alt="sponsor1">
-                    <img src="img/sponsor2.png" alt="sponsor2">
-                    <img src="img/sponsor3.png" alt="sponsor3">
+                    <img src="images/sponsor1.png" alt="sponsor1">
+                    <img src="images/sponsor2.png" alt="sponsor2">
+                    <img src="images/sponsor3.png" alt="sponsor3">
                 </div>
                 <div class="newsponsor">
                     <h1>Vuoi diventare un nostro sponsor?</h1>
@@ -195,15 +193,15 @@
             <div class="foot-left" id="last">
                 <h1>Con il patrocinio di:</h1>
                 <div>
-                    <img src="img/logo_regione_rev.png" alt="">
-                    <img src="img/San_Gregorio_Magno.png" alt="">
+                    <img src="images/logo_regione_rev.png" alt="">
+                    <img src="images/San_Gregorio_Magno.png" alt="">
                 </div>
             </div>
             <div class="foot-right">
                 <h1>Seguici attraverso i nostri profili social:</h1>
                 <div>
-                    <a href="https://www.facebook.com/baccanaliaoffical" target="_blanck"><img src="img/face.png" alt="" style="color: red;"></a>
-                    <a href="https://www.instagram.com/baccanalia_official/" target="_blanck"><img src="img/insta.png" alt=""></a>
+                    <a href="https://www.facebook.com/baccanaliaoffical" target="_blanck"><img src="images/face.png" alt="" style="color: red;"></a>
+                    <a href="https://www.instagram.com/baccanalia_official/" target="_blanck"><img src="images/insta.png" alt=""></a>
                 </div>
 
             </div>
